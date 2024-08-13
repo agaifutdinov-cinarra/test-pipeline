@@ -35,4 +35,4 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=agaifutdinov-cinarra_test-pipeline_f7aa6758-fef6-4828-9ae9-a057554817fc -Dsonar.projectName='test-pipeline'
+        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=agaifutdinov-cinarra_test-pipeline_df1f27a6-0313-41fe-b8a6-dab68e3c275b -Dsonar.projectName='test-pipeline'
